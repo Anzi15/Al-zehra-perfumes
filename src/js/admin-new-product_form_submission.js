@@ -87,6 +87,8 @@ const storeProductToDB = async (productDataObj, productImgObj) => {
       );
     }
 
+    console.log(storingProduct)
+    console.log(storingProduct=="error")
     if (storingProduct == "error") {
       showAlert(
         "error",
@@ -95,7 +97,7 @@ const storeProductToDB = async (productDataObj, productImgObj) => {
         "Alright!"
       );
       throw new Error("Error creating product");
-    } else {
+    }else {
       if(getParamFromUrl("CollectionType")=="new"){
         const productCollectionDoc = await getFirestoreDocument("storeManagement","allCollectionNames");
 
@@ -112,7 +114,7 @@ const storeProductToDB = async (productDataObj, productImgObj) => {
         "Add another Product"
       );
       confirmAlert.isConfirmed
-        ? window.location.replace(`/admin/products?collection=${collection}`)
+        ? window.location.replace(`/admin/products?collection=${productCollectionName}`)
         : window.location.reload();
     }
   } catch (error) {}
