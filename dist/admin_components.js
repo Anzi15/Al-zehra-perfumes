@@ -15,7 +15,7 @@
   \*************************************/
 /***/ (() => {
 
-eval("//getting elems \r\nconst sidebar_toggler_btn = document.getElementById('sidebar_toggler');\r\nconst sidebar = document.getElementById(\"sidebar\");\r\n\r\n//functions\r\n\r\n\r\n//eventlistners\r\nsidebar_toggler_btn.addEventListener('click',()=>{\r\n    sidebar.classList.toggle('sidebar_visible')\r\n})\n\n//# sourceURL=webpack://arux/./src/js/admin-componenets.js?");
+eval("//getting elems \r\nconst sidebar_toggler_btn = document.getElementById('sidebar_toggler');\r\nconst sidebar = document.getElementById(\"sidebar\");\r\n\r\n//functions\r\n\r\n\r\n//eventlistners\r\nsidebar_toggler_btn.addEventListener('click',()=>{\r\n    sidebar.classList.toggle('sidebar_visible')\r\n})\n\n//# sourceURL=webpack://Al_zehra_perfumes/./src/js/admin-componenets.js?");
 
 /***/ })
 

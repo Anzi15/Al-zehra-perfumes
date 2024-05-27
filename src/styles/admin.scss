@@ -70,12 +70,20 @@ body{
         width: calc(100% - 17rem);
         // navbar 
         nav{
+
             display: flex;
             align-items: center;
             justify-content: space-between;
             width: 100%;
             padding: 1.5rem;
             background: $color-white;
+            .brand-title{
+                img{
+                    width: 4rem;
+                    aspect-ratio: 1/1;
+        
+                }
+            }
             .userCredentialImgBtn{
                 height: 100%;
                 img{
