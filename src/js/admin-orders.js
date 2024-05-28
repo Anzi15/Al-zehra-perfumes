@@ -14,7 +14,8 @@ async function loadAllOrders (){
     
   removeCertainClassedElemsFromDom(orderCon, "placeholder-orders")
   allProducts.forEach(product =>{
-    addOrderToDom(product.data(), product.id)
+    addOrderToDom(product.data(), product.id);
+    // console.log()
   })
 }
 

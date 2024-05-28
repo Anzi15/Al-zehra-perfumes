@@ -42,7 +42,7 @@ body{
                     place-items: center;
                 }
                 .ball.active{
-                    background: $color-brand-blue;
+                    background: $color-brand-peach;
                     color: white;
                 }
                 .line-con{
@@ -60,9 +60,9 @@ body{
             }
             .step.active{
                 *{
-                    background: $color-brand-blue;
+                    background: $color-brand-peach;
                     color: $color-white !important;
-                    border-color: $color-brand-blue !important;
+                    border-color: $color-brand-peach !important;
                 }
             }
         }
@@ -118,11 +118,11 @@ body{
                         }
                     }
                     .image-upload.highlight{
-                        border: dashed 2px $color-brand-blue;
+                        border: dashed 2px $color-brand-peach;
                         background: $color-semi_blue;
 
                         svg{
-                            color: $color-brand-blue;
+                            color: $color-brand-peach;
                         }
                     }
                     #primary_image-upload, .sec-img-con{
@@ -160,7 +160,7 @@ body{
                         border: 2.5px solid $color-light-grey;
 
                         &:active,&:focus, &:focus-visible{
-                            outline-color: $color-brand-blue
+                            outline-color: $color-brand-peach
                         }
                     }
                     textarea{

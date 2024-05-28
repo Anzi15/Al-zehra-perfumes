@@ -90,8 +90,8 @@ a[role=not-link] {
 }
 
 a.theme_link {
-  color: #5C788F;
-  text-decoration-color: #5C788F;
+  color: #a85312;
+  text-decoration-color: #a85312;
 }
 
 button, input[type=submit] {
@@ -164,7 +164,7 @@ button, input[type=submit] {
 
 .big_btn {
   padding: 0.8rem 1rem;
-  background: #5C788F !important;
+  background: #a85312 !important;
   margin: 1rem 0;
   color: #FFFFFF;
   text-decoration: none;
@@ -179,12 +179,12 @@ button, input[type=submit] {
   border-radius: 6px;
   margin: 1rem 0;
   padding: 0.8rem 1rem;
-  color: #5C788F;
-  border: solid 2px #5C788F;
+  color: #a85312;
+  border: solid 2px #a85312;
   transition: scale 0.2s ease-in;
 }
 .outline-btn:hover {
-  background: #5C788F;
+  background: #a85312;
   color: #FFFFFF;
 }
 
@@ -211,11 +211,11 @@ button, input[type=submit] {
 .section-heading {
   margin: 0 auto;
   width: 90vw;
-  color: #5C788F;
+  color: #a85312;
   line-height: 2rem;
   padding: 0 0.5rem;
   border-radius: 4px;
-  border-left: 1rem solid #5C788F;
+  border-left: 1rem solid #a85312;
   font-size: 1.3rem;
 }
 
@@ -301,7 +301,7 @@ main section.header-notification form.edit-notification-input-con input[type=sub
   display: flex;
   align-items: center;
   padding: 1rem;
-  background: #5C788F;
+  background: #a85312;
   color: #FFFFFF;
 }
 main section.coupon-codes .coupon-codes-con {

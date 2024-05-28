@@ -49,7 +49,7 @@ main{
             }
         }
         .overlay-img-preview{
-            background: rgba(35, 29, 29, 0.42);
+            background: rgba(35, 29, 29, 0.801);
             border-radius: 16px;
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(9.3px);
@@ -139,14 +139,15 @@ main{
                     font-weight: 500;
                     gap: 1rem;
                     padding: 1rem .8rem ;
-                    border: solid 1.4px $color-grey;
+                    border: solid 1.4px $color-brand-peach;
                     color: $color-light-black;
                     border-radius: 6px;
                     transition: all .1s ease-in;
                     text-decoration: none;
     
                     &:hover{
-                        background: linear-gradient(0deg, $color-black 0%, #1b1b1b 100%);
+                        background: $color-brand-peach;
+                        // background: linear-gradient(0deg, $color-black 0%, #1b1b1b 100%);
                         color: $color-white;
                         color: $color-white
                     }
@@ -156,13 +157,16 @@ main{
                 
                 }
                 .buyNowBtn{
+                    border: none;
                     width: 100%;
-                    background: linear-gradient(0deg, $color-black 0%, #1b1b1b 100%);
+                    // background: linear-gradient(0deg, $color-brand-peach 0%, #703608 100%);
+                    background: $color-brand-peach;
                     color: $color-white;
-
+                    
                     &:hover{
-                        background: linear-gradient(0deg, #1b1b1b 0%, $color-black 100%);
-                        border: 10px;
+                        background: $color-brand-peach;
+                        // background: linear-gradient(0deg, #1b1b1b 0%, $color-black 100%);
+                        // border: 10px;
                     }
                 }
             }

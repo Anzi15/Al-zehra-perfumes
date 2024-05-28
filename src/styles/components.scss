@@ -4,7 +4,7 @@
 .notification{
     min-height: 2.5rem;
     width: 100%;
-    background: $color-black;
+    background: #5e2c05;
     color: $color-white;
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ nav.mobile-only-nav.closed{
         object-fit: cover;
     }
     .discount-label{
-        background: $color-brand-blue;
+        background: $color-brand-peach;
         position: absolute;
         top: 5%;
         left: 5%;

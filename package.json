@@ -5,7 +5,9 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "serve": "webpack serve"
+    "serve": "webpack serve",
+    "compile:sass": "sass src/styles:dist/styles --watch"
+
   },
   "author": "Anzi | Lemme.code",
   "license": "ISC",
@@ -48,6 +50,7 @@
     "ignore-loader": "^0.1.2",
     "localhost": "^0.4.1",
     "node-loader": "^2.0.0",
+    "sass": "^1.77.2",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.5",
     "webpack-dev-server": "^5.0.2",

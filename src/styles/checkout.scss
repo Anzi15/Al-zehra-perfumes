@@ -55,7 +55,7 @@ body {
 
             &:focus-within {
               border: none;
-              border: 2px $color-brand-blue solid;
+              border: 2px $color-brand-peach solid;
             }
           }
           input[type="checkbox"] {
@@ -110,7 +110,7 @@ body {
               cursor: pointer;
             }
             .card-input-element:checked+.card-input {
-              box-shadow: 0 0 1px 1px $color-brand-blue;
+              box-shadow: 0 0 1px 1px $color-brand-peach;
               .instrustions{
                 display: block !important;
                 height: fit-content !important;
@@ -138,7 +138,7 @@ body {
             0deg,
             #7699b6,
             0%,
-            $color-brand-blue 100%
+            $color-brand-peach 100%
           );
           color: $color-white;
           img{
@@ -147,7 +147,7 @@ body {
           &:hover {
             background: linear-gradient(
               0deg,
-              $color-brand-blue 0%,
+              $color-brand-peach 0%,
               #7699b6,
               100%
             );
@@ -207,7 +207,7 @@ body {
                 position: absolute;
                 top: 0;
                 right: 0;
-                background: $color-brand-blue;
+                background: $color-brand-peach;
                 aspect-ratio: 1/1;
                 border-radius: 50%;
                 color: $color-white;
@@ -269,7 +269,7 @@ body {
             min-height: 3rem;
             padding: 0 1rem;
             width: auto;
-            background: $color-brand-blue;
+            background: $color-brand-peach;
             color: $color-white;
             border-radius: 6px;
           }

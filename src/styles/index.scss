@@ -65,7 +65,7 @@ main{
                     transition: background-color  .7s ease;
                 }
                 .carousel__nav-dot.active{
-                    background-color: $color-brand-blue;
+                    background: $color-brand-peach;
                 }
             }
         }
@@ -192,7 +192,7 @@ main{
                     justify-content: center;
                     aspect-ratio: 1/1;
                     border-radius: 50%;
-                    background: $color-brand-blue;
+                    background: $color-brand-peach;
                     border: .7rem $color-semi_blue solid;
                     transition: all .5s ease;
                     svg{
@@ -204,7 +204,7 @@ main{
                         border-width: 0.000001px;
                         background: $color-semi_blue;   
                         svg{
-                            color: $color-brand-blue
+                            color: $color-brand-peach
                         }
                     }   
                 }

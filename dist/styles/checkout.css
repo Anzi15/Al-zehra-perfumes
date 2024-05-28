@@ -90,8 +90,8 @@ a[role=not-link] {
 }
 
 a.theme_link {
-  color: #5C788F;
-  text-decoration-color: #5C788F;
+  color: #a85312;
+  text-decoration-color: #a85312;
 }
 
 button, input[type=submit] {
@@ -164,7 +164,7 @@ button, input[type=submit] {
 
 .big_btn {
   padding: 0.8rem 1rem;
-  background: #5C788F !important;
+  background: #a85312 !important;
   margin: 1rem 0;
   color: #FFFFFF;
   text-decoration: none;
@@ -179,12 +179,12 @@ button, input[type=submit] {
   border-radius: 6px;
   margin: 1rem 0;
   padding: 0.8rem 1rem;
-  color: #5C788F;
-  border: solid 2px #5C788F;
+  color: #a85312;
+  border: solid 2px #a85312;
   transition: scale 0.2s ease-in;
 }
 .outline-btn:hover {
-  background: #5C788F;
+  background: #a85312;
   color: #FFFFFF;
 }
 
@@ -211,11 +211,11 @@ button, input[type=submit] {
 .section-heading {
   margin: 0 auto;
   width: 90vw;
-  color: #5C788F;
+  color: #a85312;
   line-height: 2rem;
   padding: 0 0.5rem;
   border-radius: 4px;
-  border-left: 1rem solid #5C788F;
+  border-left: 1rem solid #a85312;
   font-size: 1.3rem;
 }
 
@@ -316,7 +316,7 @@ body main section.section-form form .field-collection input {
 }
 body main section.section-form form .field-collection input:focus-within {
   border: none;
-  border: 2px #5C788F solid;
+  border: 2px #a85312 solid;
 }
 body main section.section-form form .field-collection input[type=checkbox] {
   height: 1rem;
@@ -366,7 +366,7 @@ body main section.section-form form .field-collection .paymentMethods .card-inpu
   cursor: pointer;
 }
 body main section.section-form form .field-collection .paymentMethods .card-input-element:checked + .card-input {
-  box-shadow: 0 0 1px 1px #5C788F;
+  box-shadow: 0 0 1px 1px #a85312;
 }
 body main section.section-form form .field-collection .paymentMethods .card-input-element:checked + .card-input .instrustions {
   display: block !important;
@@ -386,14 +386,14 @@ body main section.section-form form input[type=submit], body main section.sectio
   text-decoration: none;
   width: 100%;
   border: none;
-  background: linear-gradient(0deg, #7699b6, 0%, #5C788F 100%);
+  background: linear-gradient(0deg, #7699b6, 0%, #a85312 100%);
   color: #FFFFFF;
 }
 body main section.section-form form input[type=submit] img, body main section.section-form form .form_submit_btn img {
   height: 1.5rem;
 }
 body main section.section-form form input[type=submit]:hover, body main section.section-form form .form_submit_btn:hover {
-  background: linear-gradient(0deg, #5C788F 0%, #7699b6, 100%);
+  background: linear-gradient(0deg, #a85312 0%, #7699b6, 100%);
 }
 body main section.section-additional-info {
   min-height: 100%;
@@ -451,7 +451,7 @@ body main section.section-additional-info .products-con .product .product-info d
   position: absolute;
   top: 0;
   right: 0;
-  background: #5C788F;
+  background: #a85312;
   aspect-ratio: 1/1;
   border-radius: 50%;
   color: #FFFFFF;
@@ -508,7 +508,7 @@ body main section.section-additional-info .coupon-con form.coupon-inp button[typ
   min-height: 3rem;
   padding: 0 1rem;
   width: auto;
-  background: #5C788F;
+  background: #a85312;
   color: #FFFFFF;
   border-radius: 6px;
 }

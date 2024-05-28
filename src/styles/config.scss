@@ -14,6 +14,8 @@ $color-gold: #FBBC04;
 $color-yellow: #b69121;
 $color-green: #027155;
 $color-red: #a22c29;
+$color-brand-peach: #a85312;
+$color-brand-peach-light: #ffd1ad;
 
 //*screen breakpoints
 $breakpoint-mob: 386px;
@@ -117,8 +119,8 @@ a[role="not-link"]{
     text-decoration: none;
 }
 a.theme_link{
-    color: $color-brand-blue;
-    text-decoration-color: $color-brand-blue;
+    color: $color-brand-peach;
+    text-decoration-color: $color-brand-peach;
 }
 button, input[type="submit"]{
     cursor: pointer;
@@ -188,7 +190,7 @@ button, input[type="submit"]{
 //*buttons
 .big_btn{
     padding: .8rem 1rem;
-    background: $color-brand-blue !important;
+    background: $color-brand-peach !important;
     margin: 1rem 0;
     color: $color-white;
     text-decoration: none;
@@ -203,11 +205,11 @@ button, input[type="submit"]{
     border-radius: 6px;
     margin: 1rem 0;
     padding: .8rem 1rem;    
-    color: $color-brand-blue;
-    border: solid 2px $color-brand-blue;
+    color: $color-brand-peach;
+    border: solid 2px $color-brand-peach;
     transition: scale .2s ease-in;
     &:hover{
-        background: $color-brand-blue;
+        background: $color-brand-peach;
         color: $color-white;
     }
 }
@@ -233,11 +235,11 @@ button, input[type="submit"]{
 .section-heading{
     margin: 0 auto;
     width: 90vw;
-    color: $color-brand-blue;
+    color: $color-brand-peach;
     line-height: 2rem;
     padding: 0 .5rem ;
     border-radius: 4px;
-    border-left: 1rem solid $color-brand-blue;
+    border-left: 1rem solid $color-brand-peach;
     font-size: 1.3rem;
 }
 
