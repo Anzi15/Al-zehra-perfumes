@@ -47,7 +47,7 @@ async function showNotification(icon, text, duration = 4000) {
     },
     showConfirmButton: false,
     timer: duration,
-    timerProgressBar: true,,
+    timerProgressBar: true,
     
   });
   await Toast.fire({
