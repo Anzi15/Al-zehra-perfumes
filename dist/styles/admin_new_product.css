@@ -405,7 +405,7 @@ body main section.product_details_inp form .image-inpts .image-upload p {
 }
 body main section.product_details_inp form .image-inpts .image-upload.highlight {
   border: dashed 2px #a85312;
-  background: #25292e;
+  background: #5C788F;
 }
 body main section.product_details_inp form .image-inpts .image-upload.highlight svg {
   color: #a85312;

@@ -319,6 +319,7 @@ body aside .top-options, body aside .bottom-options {
   gap: 1rem;
 }
 body aside .top-options .option, body aside .bottom-options .option {
+  border-color: #a85312;
   width: 95%;
   min-height: 4rem;
   display: flex;
@@ -330,7 +331,7 @@ body aside .top-options .option, body aside .bottom-options .option {
   color: #000000;
 }
 body aside .top-options .option:hover, body aside .bottom-options .option:hover {
-  background: #25292e;
+  background: #ffd1ad;
 }
 body aside .top-options .option .option-content, body aside .bottom-options .option .option-content {
   width: 70%;
@@ -343,8 +344,8 @@ body aside .top-options .option .option-content svg, body aside .bottom-options 
   height: 1.6rem;
 }
 body aside .top-options .option.active, body aside .bottom-options .option.active {
-  background: #25292e;
-  border-left: 0.5rem solid #5C788F;
+  background: #ffd1ad;
+  border-left: 0.5rem solid #a85312;
 }
 body main {
   width: calc(100% - 17rem);
@@ -408,7 +409,7 @@ body main section.section__get-started-with .options-list {
 }
 body main section.section__get-started-with .options-list .option {
   border-radius: 0.7rem;
-  background: #25292e;
+  background: #ffd1ad;
   padding: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;

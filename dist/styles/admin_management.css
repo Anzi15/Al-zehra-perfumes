@@ -306,7 +306,7 @@ main section.header-notification .thin-heading {
 }
 main section.header-notification form.edit-notification-input-con {
   min-height: 4rem;
-  background: #25292e;
+  background: #5C788F;
   display: flex;
   gap: 1rem;
   border-radius: 7px;
@@ -340,7 +340,7 @@ main section.coupon-codes .coupon-codes-con {
   display: grid;
   gap: 1.5rem;
   border-radius: 8px;
-  background: #25292e;
+  background: #5C788F;
 }
 main section.coupon-codes .coupon-codes-con .heading-row {
   display: flex;
