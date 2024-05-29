@@ -120,7 +120,7 @@ addToCartBtn.addEventListener("click",()=>{
     addProductToCart(docID, quantityInpElem.value, collectionName)
 })
 
-//Event listner to handle get now btn
+//Event listner to handle Buy now btn
 getNowBtn.addEventListener("click",(e)=>{
     e.preventDefault();
     const url = `../checkout?src=${docID}&collection=${collectionName}&quantity=${quantityInpElem.value}`;
