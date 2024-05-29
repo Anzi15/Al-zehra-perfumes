@@ -9,7 +9,7 @@ $color-medium-grey: #BFBFBF;
 $color-dark-grey: #7C7C7C;
 $color-brand-blue: #5C788F;
 $color-semi_white: #F9FAFB;
-$color-semi_blue: #EBF5FF;
+$color-semi_blue: #25292e;
 $color-gold: #FBBC04;
 $color-yellow: #b69121;
 $color-green: #027155;
@@ -159,7 +159,7 @@ button, input[type="submit"]{
         border-top: .5rem solid rgba(92,120,143, 0.2);
         border-right: .5rem solid rgba(92,120,143, 0.2);
         border-bottom: .5rem solid rgba(92,120,143, 0.2);
-        border-left: .5rem solid #5c788f;
+        border-left: .5rem solid #a85312;
         -webkit-transform: translateZ(0);
         -ms-transform: translateZ(0);
         transform: translateZ(0);
@@ -283,3 +283,14 @@ input[data-autocompleted] {
       transform: rotate(360deg);
     }
   }
+
+//other
+.swal2-container{
+    *{
+        &:focus{
+            border: none !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+}

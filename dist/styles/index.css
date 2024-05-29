@@ -135,7 +135,7 @@ button, input[type=submit] {
   border-top: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-right: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-bottom: 0.5rem solid rgba(92, 120, 143, 0.2);
-  border-left: 0.5rem solid #5c788f;
+  border-left: 0.5rem solid #a85312;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -258,6 +258,12 @@ input[data-autocompleted] {
     transform: rotate(360deg);
   }
 }
+.swal2-container *:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -428,16 +434,16 @@ main section.key-features .features-con .feature .icon {
   aspect-ratio: 1/1;
   border-radius: 50%;
   background: #a85312;
-  border: 0.7rem #EBF5FF solid;
+  border: 0.7rem #ffd1ad solid;
   transition: all 0.5s ease;
 }
 main section.key-features .features-con .feature .icon svg {
   width: 3rem;
-  color: #EBF5FF;
+  color: #ffd1ad;
 }
 main section.key-features .features-con .feature .icon:hover {
   border-width: 0.000001px;
-  background: #EBF5FF;
+  background: #ffd1ad;
 }
 main section.key-features .features-con .feature .icon:hover svg {
   color: #a85312;

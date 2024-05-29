@@ -50,7 +50,7 @@ async function sortProductsByPrice(order){
 async function loadAllCollection(){
     const allCollectionsName = await getFirestoreDocument("storeManagement","allCollectionNames");
     allCollectionsName.array.forEach(collection =>{
-        collectionMenu.innerHTML += ` <option value="${collection}">${collection}</option>`
+        collectionMenu.innerHTML += ` <option value="${collectionName}">${collection}</option>`
     })
 }
 

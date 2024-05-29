@@ -193,16 +193,16 @@ main{
                     aspect-ratio: 1/1;
                     border-radius: 50%;
                     background: $color-brand-peach;
-                    border: .7rem $color-semi_blue solid;
+                    border: .7rem $color-brand-peach-light solid;
                     transition: all .5s ease;
                     svg{
                         width: 3rem;
-                        color: $color-semi_blue;
+                        color: $color-brand-peach-light
                     }
 
                     &:hover{
                         border-width: 0.000001px;
-                        background: $color-semi_blue;   
+                        background: $color-brand-peach-light;   
                         svg{
                             color: $color-brand-peach
                         }

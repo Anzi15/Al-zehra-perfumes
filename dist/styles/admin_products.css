@@ -135,7 +135,7 @@ button, input[type=submit] {
   border-top: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-right: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-bottom: 0.5rem solid rgba(92, 120, 143, 0.2);
-  border-left: 0.5rem solid #5c788f;
+  border-left: 0.5rem solid #a85312;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -258,6 +258,12 @@ input[data-autocompleted] {
     transform: rotate(360deg);
   }
 }
+.swal2-container *:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 main {
   background: #FFFFFF !important;
 }
@@ -320,7 +326,7 @@ main .heading-section .add__products-con details ul a {
   text-decoration: none;
   max-width: 100%;
   display: flex;
-  background: #EBF5FF;
+  background: #25292e;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -368,7 +374,7 @@ main section.section__your__products .section__products__grid .product {
   display: inline-flex;
   background: #F9FAFB;
   border-radius: 0.5rem;
-  border: 1px solid #EBF5FF;
+  border: 1px solid #25292e;
   gap: 0.4rem;
   transition: all 0.2s ease-in;
   box-shadow: rgba(0, 0, 0, 0) 0px 4px 12px;

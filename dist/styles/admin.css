@@ -136,7 +136,7 @@ button, input[type=submit] {
   border-top: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-right: 0.5rem solid rgba(92, 120, 143, 0.2);
   border-bottom: 0.5rem solid rgba(92, 120, 143, 0.2);
-  border-left: 0.5rem solid #5c788f;
+  border-left: 0.5rem solid #a85312;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
@@ -259,6 +259,12 @@ input[data-autocompleted] {
     transform: rotate(360deg);
   }
 }
+.swal2-container *:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 body {
   overflow: visible;
   min-height: 100vh;
@@ -300,7 +306,7 @@ body aside .top-options .option, body aside .bottom-options .option {
   color: #000000;
 }
 body aside .top-options .option:hover, body aside .bottom-options .option:hover {
-  background: #EBF5FF;
+  background: #25292e;
 }
 body aside .top-options .option .option-content, body aside .bottom-options .option .option-content {
   width: 70%;
@@ -313,7 +319,7 @@ body aside .top-options .option .option-content svg, body aside .bottom-options 
   height: 1.6rem;
 }
 body aside .top-options .option.active, body aside .bottom-options .option.active {
-  background: #EBF5FF;
+  background: #25292e;
   border-left: 0.5rem solid #5C788F;
 }
 body main {
@@ -378,7 +384,7 @@ body main section.section__get-started-with .options-list {
 }
 body main section.section__get-started-with .options-list .option {
   border-radius: 0.7rem;
-  background: #EBF5FF;
+  background: #25292e;
   padding: 1rem 2rem;
   display: flex;
   flex-wrap: wrap;

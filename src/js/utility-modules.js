@@ -15,7 +15,7 @@ const showConfirmationDialog = async (
     title,
     text,
     icon,
-    confirmButtonColor: "#59748A",
+    confirmButtonColor: "#a85312",
     confirmButtonText: `${confirmationText}`,
     showCancelButton: true,
     cancelButtonText,
@@ -31,8 +31,8 @@ async function showAlert(icon = "success", title, text, btnText) {
     title,
     text,
     confirmButtonText: btnText,
-    confirmButtonColor: "#59748A",
     allowOutsideClick: false,
+    confirmButtonColor: "#a85312",
   });
   return alert;
 }
@@ -47,7 +47,8 @@ async function showNotification(icon, text, duration = 4000) {
     },
     showConfirmButton: false,
     timer: duration,
-    timerProgressBar: true,
+    timerProgressBar: true,,
+    
   });
   await Toast.fire({
     icon: icon,
