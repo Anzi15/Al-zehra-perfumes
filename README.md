@@ -10,18 +10,18 @@
     A full-stack e-commerce solution for my client!
     <br/>
     <br/>
-    <a href="https://github.com/Anzi15/Al zehra perfumes"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Anzi15/Al-zehra-perfumes"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/Anzi15/Al zehra perfumes">View Demo</a>
+    <a href="https://github.com/Anzi15/Al-zehra-perfumes">View Demo</a>
     .
-    <a href="https://github.com/Anzi15/Al zehra perfumes/issues">Report Bug</a>
+    <a href="https://github.com/Anzi15/Al-zehra-perfumes/issues">Report Bug</a>
     .
-    <a href="https://github.com/Anzi15/Al zehra perfumes/issues">Request Feature</a>
+    <a href="https://github.com/Anzi15/Al-zehra-perfumes/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/Anzi15/Al zehra perfumes/total) ![Contributors](https://img.shields.io/github/contributors/Anzi15/Al zehra perfumes?color=dark-green) ![Issues](https://img.shields.io/github/issues/Anzi15/Al zehra perfumes)
+![Downloads](https://img.shields.io/github/downloads/Anzi15/Al-zehra-perfumes/total) ![Contributors](https://img.shields.io/github/contributors/Anzi15/Al-zehra-perfumes?color=dark-green) ![Issues](https://img.shields.io/github/issues/Anzi15/Al-zehra-perfumes)
 
 ## About The Project
 
@@ -57,13 +57,13 @@ To get started with Al zehra perfumes, you can follow these simple installation 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Anzi15/Al zehra perfumes.git
+   git clone https://github.com/Anzi15/Al-zehra-perfumes.git
    ```
 
 2. **Navigate into the project directory:**
 
    ```bash
-   cd Al zehra perfumes
+   cd Al-zehra-perfumes
    ```
 
 3. **Install dependencies:**
@@ -80,10 +80,10 @@ To get started with Al zehra perfumes, you can follow these simple installation 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Anzi15/Al zehra perfumes/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/Anzi15/Al-zehra-perfumes/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
 - Please make sure you check your spelling and grammar.
 - Create individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com/Anzi15/Al zehra perfumes/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+- Please also read through the [Code Of Conduct](https://github.com/Anzi15/Al-zehra-perfumes/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -95,4 +95,4 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/Anzi15/Al zehra perfumes/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/Anzi15/Al-zehra-perfumes/blob/main/LICENSE.md) for more information.
