@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/Anzi15/Al zehra perfumes">
-    <img src="[https://github.com/Anzi15/Al zehra perfumes/assets/88719016/c52594f3-8113-42d1-9e95-dff296e0dd7d](https://al-zehra.netlify.app/assets/WhatsApp%20Image%202024-05-27%20at%2015.09.21_158c69d0.jpg)" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Anzi15/Al-zehra-perfumes">
+    <img src="https://al-zehra.netlify.app/assets/WhatsApp%20Image%202024-05-27%20at%2015.09.21_158c69d0.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Al zehra perfumes</h3>
